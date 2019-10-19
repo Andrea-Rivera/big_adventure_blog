@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Contact us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Marko+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bad+Script">
+  <link rel="stylesheet" href="css/theBigAdventure.css">
+</head>
+
+<body>
+<div id="container">
+  <header>
+      <h1> Contact</h1>
+  <nav>
+        <ul>
+          <li><a href="index.html" title="back to our home page">Home</a></li>
+          <li><a href="destinations.html" title="See our recommended destinations">Destination</a></li>
+          <li><a href="blog.html" class="read our latest news">Blog</a></li>
+          <li><a href="#" class="current_page" >Contact</a></li>
+        </ul>
+  </nav>
+  </header>
+
+  <main>
+        
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you with your suggestions, experience or any questions you might have.</p>
+        <div id="contact">
+            <form name = "query_form" action="php/process_form.php" method="post">
+                <label for ="name">Name:</label>
+                <input name = "name" id="name" type="text" autofocus required>
+                <br>
+                <label for="email">Email:</label>
+                <input name = "email" id="email" type="email"  required>
+                <br>
+                <label for="phone">Phone:</label>
+                <input name = "phone" id="phone" type="phone">
+                <br>
+                <label for="query">Query:</label>
+                <textarea name = "query" id="query"></textarea required> 
+                <br>
+                <input type="submit" value="Send" class="button_form">
+                <br>
+            </form>
+        </div>
+
+</main>
+
+<footer>
+  <!--<h2>Location and Tours</h2>-->
+  <p>Royal street, Brisbane<br>
+    <span class="label">Tours: Monday through Thursday;</span> <time datetime="07:00">7am</time> to <time datetime="18:00">6pm</time>,
+    <span class="label">Friday and Saturday;</span> <time datetime="09:00">9am</time> to <time datetime="16:00">4pm</time></p>
+  <p><small>All content copyright &copy; 2019, The_big_adventure</small></p>
+</footer>
+</div><!-- end container div -->
+</body>
+
+</html>
