@@ -110,21 +110,8 @@ h2 {
 	border-radius: 10px;
 }
 
-/* styles for our footer */
-footer {
-	color: grey;
-	border-top: 1px solid grey;
-	margin-top: 100px;
-	text-align: center;
-}
 
-.label {
-	font-weight: bold;
-	font-variant: small-caps;
-	font-style: normal;
-  }
-
-  /* Blog styles */
+  /* Blog page */
   h2 {
 	color: #FF6600;
 	font-family: 'Bad Script', cursive;
@@ -148,8 +135,8 @@ h3 {
 	width: auto;
 }
 
-  #countryside img {
-	width: 100%;
+  .countryside img {
+	width: 50%;
 	min-width: 150px;
 	max-width: 700px;
 	height: 100%;
@@ -157,7 +144,9 @@ h3 {
 	display: block;
 	border-radius: 10px;
 }
-/*Destinatios page*/
+
+
+/*Destination page*/
 
 #destinations {
 	background-color: white;
@@ -174,14 +163,27 @@ h3 {
 	text-align: center;
 }
 
-
 #foot_note{
 
 	font-size: smaller;
 	color: rgb(7, 0, 0);
+}
+
+/*Pictures*/
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 30%;
+	padding: 5px;
+  }
+
+
 
 /*Contact page*/
-}
 #contact {
 	background-color: white;
 	padding: 20px 40px 40px 40px;
@@ -275,3 +277,17 @@ textarea
 	background-image: linear-gradient(to bottom, #f5f56c, #dfe3dc);
 	text-decoration: none;
 }
+
+/* styles for our footer */
+footer {
+	color: grey;
+	border-top: 1px solid grey;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.label {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: normal;
+  }
